@@ -81,7 +81,7 @@ body{
     border-radius: 0.8rem;
     padding: 1rem;
     color:  rgba(19, 21, 21, 0.38);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--heading-font);
     font-weight: 500;
     cursor: pointer;
 } 
@@ -109,19 +109,18 @@ body{
 /* HERO--SECTION */
 .chinedu-hero-section{
     padding:8rem;
-    background-image: linear-gradient( rgba(0, 29, 192, 0.25),rgba(0, 29, 192, 0.25)), url(../img/image1.png);
+    background-image: linear-gradient( rgba(0, 29, 192, 0.25),rgba(0, 29, 192, 0.25)), url(../img/about-us-img1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
     color: var(--white);
     z-index: -1;
+    font-family: var(--heading-font);
 }
 .chinedu-heading h1{
    font-size: 3rem;
    max-width: 100%;
    margin-top:3rem;
-
 }
 /* tablet screens */
 @media(min-width:760px){
@@ -131,7 +130,7 @@ body{
 
     .chinedu-heading h1{
 
-        font-weight: 600;
+       font-weight: 600;
        font-size: 3.5rem;
        text-align: center;
        margin-top: rem;
@@ -352,7 +351,8 @@ body{
 }
 
 
-/* FOOTER SECTION
+ /* FOOTER SECTION */
+ 
 .chinedu-footer-section{
     margin-top: 12rem;
     background: var(--second-color);
@@ -441,7 +441,7 @@ margin-left: 1rem;
         grid-column: span no;
     }
 }
- */
+ 
 
 /* for the nav menu */
 @media(max-width:760px){
