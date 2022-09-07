@@ -37,3 +37,53 @@ document.addEventListener('DOMContentLoaded', function() {
     navigation.addEventListener( 'mousedown', makeActive );
     
     } );
+
+
+       
+// Animate on scroll
+
+// Get all js-scroll elements on the page
+const scrollElements = document.querySelectorAll(".js-scroll");
+
+// Detecting When an Element Is in View 
+const elementInView = (el, dividend = 1) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+// detect when a percentage of the page has been scrolled.
+  return (
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) / dividend
+  );
+};
+
+const elementOutofView = (el) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+  return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+  );
+};
+// Assigning class name scrolled to element
+const displayScrollElement = (element) => {
+  element.classList.add("scrolled");
+};
+
+const hideScrollElement = (element) => {
+  element.classList.remove("scrolled");
+};
+// using the forEach method to call the function on all js-scroll elements.
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 1.28)) {
+      displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+      hideScrollElement(el)
+    }
+  })
+}
+//  passing the above method into a scroll event listener
+//  on the window so it runs whenever the user scrolls.
+window.addEventListener("scroll", () => { 
+  handleScrollAnimation();
+});
+
