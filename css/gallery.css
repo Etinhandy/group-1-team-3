@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  padding: 5em 0 1.5em;
+}
+
+.gallery-hero-section {
+  background: linear-gradient(
+      rgba(243, 152, 10, 0.25),
+      rgba(243, 152, 10, 0.25)
+    ),
+    url("../img/gallery_i.jpg");
+  background-size: cover;
+  background-position: 52% 48%;
+  background-repeat: no-repeat;
+  min-height: 31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-display {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.gallery-card {
+  width: 32%;
+  min-height: 18rem;
+  background-color: white;
+  margin: 0.5rem;
+  transition: 0.4s;
+  transition-property: transform;
+  
+}
+
+.gallery-card:hover{
+  transform: scale(1.05);
+  
+}
+
+.gallery-card-pic {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 17.2rem;
+}
+
+/* To make the image fluid and and not override div */
+.fluid-state {
+  max-width: 100%;
+  max-height: 100%;
+  background-position: cover;
+}
+
+.gallery-texts {
+  padding: 0 0 ;
+}
+ 
+.funmi_h2 a {
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.51rem;
+  letter-spacing: .009rem;
+  text-decoration: none;
+  color: #131515;
+}
+
+.funmi_p a:hover{
+  text-decoration: underline;
+  
+}
+
+.funmi_p a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.362rem;
+  letter-spacing: 0.031rem;
+  color: #145ef4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fluid-state2 {
+  width: 25rem;
+  height: 17rem;
+}
+
+/* footer{
+font: inherit;
+font-size: 62.5%;
+}
+
+ .funmi_padding{
+  padding-left: 1em;
+}
+*/
+@media only screen and (max-width: 1024px) {
+  .gallery-card {
+    width: 31.5%;
+    min-height: 18rem;
+  }
+  
+  .gallery-card-pic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+  }
+
+  .fluid-state2 {
+    width: 25rem;
+    height: 15rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .JOY-NEWSLETTER{
+    padding-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.gallery-main{
+  padding-bottom: 2em;
+}
+
+  .gallery-hero-section {
+    background-position: 30% 80%;
+    background-size: 60rem;
+    font-size: 2.3rem;
+    padding: 0 2rem 0 1rem;
+  }
+
+  .gallery-card {
+    width: 47.5%;
+    min-height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .gallery-card {
+    width: 98%;
+    min-height: 16rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .gallery-card-pic {
+    width: auto;
+    height: 16rem;
+  }
+
+  .fluid-state2 {
+    width: 17rem;
+    height: 16rem;
+  }
+
+  .gallery-hero-section {
+    background-position: 52% 30%;
+    background-size: 500px;
+    font-size: 1.7rem;
+    min-height: 20rem;
+    padding: 0 2rem 0 1rem;
+  }
+
+  .gallery-display {
+    padding-top: 1rem;
+  }
+}

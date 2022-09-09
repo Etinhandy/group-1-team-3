@@ -137,7 +137,7 @@ font-size: 1.1rem;
        
   }
 /*for mobile screen*/
-@media (max-width:428px){
+@media (max-width:375px){
     .email-for-newsletter form{
         flex-wrap:wrap;
     }
