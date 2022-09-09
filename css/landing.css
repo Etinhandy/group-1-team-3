@@ -70,8 +70,8 @@ body{
 }
 
 .hero-div a:hover{
-    background-color: var(--footer-bg);
-    color: var(--footer-btn);
+    transition: all 1s;
+    opacity: 0.7;
 }
 
 /* =======impact section====== */
