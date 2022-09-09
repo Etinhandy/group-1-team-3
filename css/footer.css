@@ -24,7 +24,7 @@
 }
 /* FOOTER SECTION */
 .chinedu-footer-section{
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     background: var(--second-color);
     color: var(--white);
     padding: 0.625rem;
@@ -137,13 +137,13 @@ font-size: 1.1rem;
        
   }
 /*for mobile screen*/
-@media (max-width:375px){
+@media (max-width:428px){
     .email-for-newsletter form{
         flex-wrap:wrap;
     }
-    .chinedu-footer-section{
+    /* .chinedu-footer-section{
         margin-top: 1.8rem;
-    }
+    } */
     .first-item{
         margin: 0 auto;
     }
