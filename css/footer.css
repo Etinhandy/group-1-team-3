@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+:root{
+    --primary-color: #0B55F4;
+    --second-color: #001DC0;
+    --secondary-color:#F4AA0B;
+    --line-color:#ACAEAE;
+    --footer-color:#131515;
+    --white: #ffffff;
+    --heading-font:'Montserrat', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+/* FOOTER SECTION */
+.chinedu-footer-section{
+    margin-top: 3rem;
+    background: var(--second-color);
+    color: var(--white);
+    padding: 0.625rem;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+#footer-content{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 3.125rem; 
+}
+.footer-item-heading h2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family:var(--heading-font) ;
+}
+.footer-item{
+    display: grid;
+    gap: 1.5625rem;
+}
+.footer-items li{
+    margin-top: 1.3rem;
+}
+.third-item{
+    justify-self: center;
+}
+.last-item{
+    justify-self: self-end;
+}
+.email-for-newsletter form{
+    display: flex;
+    gap: .4rem;
+}
+.email-for-newsletter
+ form input{
+    background: transparent;
+    border: 1px solid var(--white);
+    padding: .5rem;
+    color: var(--white);
+    border-radius: 2px; 
+    font-size: inherit;
+}
+.email-for-newsletter
+ form input:focus{
+    outline: none;
+ }
+.email-for-newsletter 
+.submit-button{
+    background: var(--secondary-color);
+    border: none;
+    color: var(--white);
+    padding: 8px 25px;
+    border-radius: 8px;
+    font-family: var(--heading-font);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.footer-link a{
+    color: var(--white);
+    font-size: .875rem;
+}
+.footer-link a:hover{
+    color: var(--line-color);
+}
+.footer-link .fa-brands{
+font-size: 1.3rem;
+margin-left: .8rem;
+}
+.footer-link .fa, .fas{
+font-size: 1.1rem;
+
+}
+
+.footer-link .fa-facebook{
+    margin-left: 0;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 3.8rem;
+    font-size: .875rem;
+}
+
+
+
+/* Media Queries */
+
+/*targetting some laptop screen and some tablet screen*/
+@media (max-width:1024px){
+    #footer-content{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .first-item{
+        grid-column: span 3;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+  
+@media (max-width:686px){
+    #footer-content{
+        display: block;
+    }
+    .first-item{
+        display: inline-block;
+        
+    }
+   
+       
+  }
+/*for mobile screen*/
+@media (max-width:428px){
+    .email-for-newsletter form{
+        flex-wrap:wrap;
+    }
+    .chinedu-footer-section{
+        margin-top: 1.8rem;
+    }
+    .first-item{
+        margin: 0 auto;
+    }
+  }
