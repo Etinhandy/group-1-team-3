@@ -18,9 +18,9 @@
 }
 
 .footer-container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 10px 24px;
 }
 /* FOOTER SECTION */
 .chinedu-footer-section{
@@ -139,12 +139,18 @@ font-size: 1.1rem;
 /*for mobile screen*/
 @media (max-width:428px){
     .email-for-newsletter form{
-        flex-wrap:wrap;
+        flex-wrap:nowrap;
     }
-    /* .chinedu-footer-section{
-        margin-top: 1.8rem;
-    } */
+
     .first-item{
         margin: 0 auto;
     }
   }
+  
+@media (max-width:360px){
+    .email-for-newsletter form{
+        max-width: 20px;
+        flex-wrap:wrap;
+    }
+    
+}
