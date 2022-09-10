@@ -448,3 +448,13 @@ input[type="radio"]:checked {
     padding: 0 1rem;
   }
 }
+
+@media(max-width: 375px) {
+  .dona-p-btn button {
+    width: 10rem;
+  }
+
+  .donation-page-btns {
+    padding: 0;
+  }
+}
