@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +63,7 @@
 
 .value a,
 .value {
-  font-family: "open Sans";
+  font-family: 'Open Sans',san-serif;
   font-size: 16px;
   color: #0b55f4;
   padding-left: 1rem;
