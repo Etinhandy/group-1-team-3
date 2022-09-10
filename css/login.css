@@ -35,7 +35,7 @@ body{
 .container{
     max-width: 1300px;
     margin: 0 auto;
-    padding: 12px 20px;
+    padding: 5px 24px;
 }
 
 
@@ -393,11 +393,11 @@ margin-left: 1rem;
   }
     
     /*for tablets screen*/
-     @media (max-width:766px){
+     @media (max-width:768px){
         .chinedu-nav-menu{
           position: fixed;
           left: -100%;
-          top: 12px;
+          top: 10px;
           gap: 0;
           flex-direction: column;
           justify-content: flex-start;
@@ -415,7 +415,7 @@ margin-left: 1rem;
         left: 0;
         }
       .chinedu-nav-item{
-        margin: 26px 0;
+        margin: 18px 0;
         text-align: center;
         }
     
@@ -479,7 +479,10 @@ margin-left: 1rem;
     }
     
     .email-for-newsletter form{
-        flex-wrap:wrap;
+        flex-wrap:nowrap;
+    }
+    .email-for-newsletter input{
+        max-width: 170px;
     }
     .chinedu-footer-section{
         margin-top: 3rem;
@@ -488,6 +491,14 @@ margin-left: 1rem;
         margin: 0 auto;
     }
   }
+  
+@media (max-width:360px){
+  .email-for-newsletter form{
+      max-width: 20px;
+      flex-wrap:wrap;
+  }
+  
+}
   
 
 
