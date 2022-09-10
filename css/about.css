@@ -569,15 +569,6 @@ font-size: 1.8rem;
 
 
 
-@media(min-width:1300px){
-    
-    .container{
-        max-width: 1300px;
-        margin: 0 auto;
-        padding:.5rem;
-    }
-    
-    }
 
 /* for the nav menu */
 @media(max-width:768px){
