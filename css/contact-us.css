@@ -62,7 +62,7 @@
 
 .value a,
 .value {
-  font-family: "open Sans";
+  font-family: 'Open Sans',san-serif;
   font-size: 16px;
   color: #0b55f4;
   padding-left: 1rem;
@@ -78,6 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .form-area h2 {
