@@ -46,7 +46,7 @@
 
 .gallery-card {
   width: 32%;
-  min-height: 18rem;
+  height: 26rem;
   background-color: white;
   margin: 0.5rem;
   transition: 0.4s;
@@ -63,7 +63,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 17.2rem;
+  height: 85%;
 }
 
 /* To make the image fluid and and not override div */
@@ -102,8 +102,11 @@ font-weight: 700;
 }
 
 .fluid-state2 {
-  width: 25rem;
-  height: 17rem;
+  width: 100%;
+  height: 100%;
+  padding-right: 0rem;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* footer{
