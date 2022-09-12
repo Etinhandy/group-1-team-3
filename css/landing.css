@@ -463,6 +463,11 @@ form .btn:hover{
     .feature-div:last-child{
         margin-right: 20px;
     }
+
+    /* =====Testimonial section===== */
+    .testimonial h2{
+        margin: 0 350px;
+    }
 }
 
 @media only screen and (max-width: 1043px) {
@@ -518,6 +523,37 @@ form .btn:hover{
 }
 
   /* =======TABLET=VIEW====== */
+
+  @media only screen and (max-width: 961px){
+
+     /* =====Testimonial section===== */
+
+     .testimonial h2{
+        margin: 0 310px;
+    }
+}
+
+
+  @media only screen and (max-width: 954px) {
+
+    /* ======impact section======= */
+
+    .impact h2{
+        margin-left: 110px;
+    }
+
+    .impact-div{
+        margin: 30px 70px 20px 70px;
+    }
+
+
+    /* ======Our Features section======= */
+
+    .feature-div{
+        width: 18rem;
+    } 
+
+}
 
   @media only screen and (max-width: 900px) {
 
