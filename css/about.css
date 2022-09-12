@@ -639,20 +639,20 @@ font-size: 1.8rem;
   }
   
 .scrolled.fade-in {
-    animation: fade-in 1s ease-in-out both;
+    animation: fade-in 2s ease-in-out both;
   }
   
 
 .scrolled.fade-in-bottom {
-    animation: fade-in-bottom 1s ease-in-out both;
+    animation: fade-in-bottom 2s ease-in-out both;
   }
   
   .scrolled.slide-left {
-    animation: slide-in-left 1s ease-in-out both;
+    animation: slide-in-left 2s ease-in-out both;
   }
   
   .scrolled.slide-right {
-    animation: slide-in-right 1s ease-in-out both;
+    animation: slide-in-right 2s ease-in-out both;
   }
   
 
@@ -685,8 +685,8 @@ font-size: 1.8rem;
   
   @keyframes fade-in-bottom {
     0% {
-      -webkit-transform: translateY(50px);
-      transform: translateY(50px);
+      -webkit-transform: translateY(60px);
+      transform: translateY(60px);
       opacity: 0;
     }
     100% {
