@@ -638,6 +638,18 @@ form .btn:hover{
         }
     }
     
+    @media only screen and (max-width: 892px){
+        
+    /* =======impact section====== */
+
+     .impact h2{
+        margin-left: 50px;
+     }
+
+     .impact-div{
+        margin: 30px 30px 20px 30px;
+    }
+    }
 
   @media only screen and (max-width: 768px) {
     
