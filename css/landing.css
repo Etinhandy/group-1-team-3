@@ -413,6 +413,72 @@ form .btn:hover{
     }
 }
 
+@media only screen and (max-width: 1160px) {
+
+    /* ======Our Features section======= */
+
+
+    .feature-div{
+        width: 20rem;
+    } 
+}
+
+@media only screen and (max-width: 1136px) {
+
+    /* ======impact section======= */
+
+
+    .impact-min-div  {
+        width: 19rem;
+    }
+    
+    .impact-min-div img{
+        width: 299px;
+        height: 231px;
+        border-radius: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 1136px) {
+
+    /* ======impact section======= */
+
+
+    .impact-min-div  {
+        width: 18rem;
+    }
+    
+    .impact-min-div img{
+        width: 279px;
+        height: 211px;
+    }
+
+}
+
+@media only screen and (max-width: 1060px) {
+
+    /* ======Our Features section======= */
+
+    .feature-div:first-child{
+        margin-left: 20px;
+    }
+    
+    .feature-div:last-child{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1043px) {
+
+    /* ======impact section======= */
+    
+    .impact-min-div img{
+        width: 269px;
+        height: 201px;
+    }
+
+}
 
   /* =======TABLET=VIEW====== */
 
