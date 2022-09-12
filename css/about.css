@@ -280,7 +280,7 @@ body{
 .our-team-content{
     margin-top: 4rem;
     display: grid;
-    gap: 4.2rem;
+    gap: 2.2rem;
 }
 .our-team-inner{
     background-color: var(--white);
