@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #F8F8F8;
@@ -76,6 +80,19 @@ body{
 
 .images div:hover{
   cursor: pointer;
+  animation: pulse 1s infinite;
+    transition: .3s;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
 }
 
 .second-content p{
@@ -95,7 +112,7 @@ body{
 }
 
  .form {
-    margin: 30px 80px;
+    margin: 30px 70px;
 }
 
 .double {
@@ -113,9 +130,9 @@ body{
 }
 
 .constant {
-    margin-bottom: 2px;
-    padding-bottom: 5px;
-    /* position: relative; */
+    margin-bottom: 5px;
+    padding-bottom: 12px;
+    position: relative;
 } 
 
  .constant label {
@@ -146,7 +163,7 @@ body{
 
 
 .constant small{
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     left: 0;
     visibility: hidden;
@@ -173,6 +190,7 @@ body{
 } 
 
 .form .btn:hover{
+    background-color: #001dc0;
   cursor: pointer;
   color: var(--footer-btn);
 }
@@ -203,7 +221,7 @@ body{
     }
 
     .form-container{
-        width: 400px;
+        width: 380px;
     }
 
     .second-content p{
@@ -223,5 +241,11 @@ body{
     }
     .form .btn {
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .form-container{
+        width: 340px;
     }
 }
