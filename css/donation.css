@@ -89,6 +89,7 @@
 
 .donation-pic-frame {
   height: 30rem;
+  object-fit: covera;
 }
 
 .donation-pic-frame img {
