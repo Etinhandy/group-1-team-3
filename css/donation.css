@@ -418,4 +418,15 @@ input[type="radio"]:checked {
     margin-bottom: 0.8rem;
     padding: 0 1rem;
   }
+
+  .donation-flex-text h2 {
+    font-size: 2rem;
+    text-align: justify;
+  }
+
+
+.donation-flex-text p {
+  font-size: 1rem;
+  text-align: justify;
+}
 }
