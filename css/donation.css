@@ -89,7 +89,6 @@
 
 .donation-pic-frame {
   height: 30rem;
- 
 }
 
 .donation-pic-frame img {
@@ -174,7 +173,7 @@
   margin-top: 0.5rem;
   outline: none;
   padding: 0.5rem;
-  border: 1px solid #333535;;
+  border: 1px solid #333535;
 }
 
 .donation-input select {
@@ -194,7 +193,7 @@
   margin-top: 0.5rem;
   outline: none;
   padding: 0.5rem;
-  border: 1px solid #333535;;
+  border: 1px solid #333535;
 }
 
 .rdio {
@@ -258,8 +257,6 @@ input[type="radio"]:checked {
 
 /* for some laptop screens */
 
-
-
 /* mediaqueries for tablet view */
 
 @media (max-width: 768px) {
@@ -317,7 +314,6 @@ input[type="radio"]:checked {
     height: 100%;
   }
 
-  
   .donation-form {
     width: 100%;
   }
@@ -426,9 +422,8 @@ input[type="radio"]:checked {
     text-align: justify;
   }
 
-
-.donation-flex-text p {
-  font-size: 1rem;
-  text-align: justify;
-}
+  .donation-flex-text p {
+    font-size: 1rem;
+    text-align: justify;
+  }
 }
