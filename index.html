@@ -11,6 +11,10 @@
       />
     <title>Home - CrowdHearts</title>
 
+    <!-- AOS stylesheets========================= -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- custom stylesheets -->
 
     <link rel="stylesheet" href="css/nav.css">
@@ -95,7 +99,7 @@
 
     <!-- =======Impact section====== -->
 
-    <Section class="impact">
+    <Section class="impact" data-aos="fade-right">
         <h2>Our Impact</h2>
         <div class="impact-div">
             <div class="impact-min-div">
@@ -116,23 +120,23 @@
 
     <!-- ======Our Features section===== -->
 
-    <section class="our-features">
+    <section class="our-features" >
         <div class="feature-overlay">
             <div>
                 <h2 class="features-h2">Our Features</h2>
-                <div class="feature-container">
+                <div class="feature-container" data-aos="fade-up-left">
                     <div class="feature-div">
                         <img src="img/Vector (4).png" alt="icon">
                         <h3>Sponsorships</h3>
                         <p>Sponsorship that help people get back on their feet</p>
                     </div>
                     <div class="feature-div">
-                        <img src="img/Vector (5).png" alt="Donations">
+                        <img src="img/Vector (6).png" alt="Donations">
                         <h3>Donations</h3>
                         <p id="special">People can donate depending on our donation offer, we accepts monetary and material donations.</p>
                     </div>
                     <div class="feature-div">
-                        <img src="img/Vector (6).png" alt="Volunteering">
+                        <img src="img/Vector (5).png" alt="Volunteering">
                         <h3>Volunteering</h3>
                         <p>People can volunteer for causes they are passionate about.</p>
                     </div>
@@ -143,7 +147,7 @@
 
     <!-- =====Testimonial section===== -->
 
-    <section class="testimonial">
+    <section class="testimonial" data-aos="zoom-in-up">
         <h2>Testimonial from our Donors</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna bibendum volutpat sem pellentesque eu. Egestas at nunc, feugiat lorem sit faucibus. Ultricies praesent convallis consectetur lectus.</p>
         <div class="testimonial-container">
@@ -269,4 +273,15 @@
 <script src="js/nav.js"></script>
 <script src="js/landing.js"></script>
 <script src="https://kit.fontawesome.com/b761d3f3a5.js"crossorigin="anonymous"></script>
+
+ <!-- AOS script========================= -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: false,
+  });
+  
+</script>
 </html>
