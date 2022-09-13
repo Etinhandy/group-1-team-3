@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="shortcut icon"
+        href="img/CrowdHeart icon.png"
+        type="image/x-icon"
+      />
+
+        <!-- AOS stylesheets========================= -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/gallery.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/nav.css">
@@ -75,7 +85,7 @@
 
         <section class="gallery-display">
             <div class="gallery-row">
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_a.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -84,7 +94,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-up">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_b.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -93,7 +103,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_c.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -102,7 +112,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_d.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -111,7 +121,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card"data-aos="slide-down">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_e.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -120,7 +130,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_f.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -129,7 +139,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card last">
+                <div class="gallery-card last" data-aos="slide-right">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_g.png" alt="happy kids" class="fluid-state2">
                     </div>
@@ -138,7 +148,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-up">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_h.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -147,7 +157,7 @@
                         <p class="funmi_p"><a href="#">During our outreach in 2022</a></p>
                     </div>
                 </div>
-                <div class="gallery-card">
+                <div class="gallery-card" data-aos="slide-left">
                     <div class="gallery-card-pic">
                         <img src="img/gallery_i.jpg" alt="happy kids" class="fluid-state">
                     </div>
@@ -234,5 +244,16 @@
      </footer>
     <!-- footer section ends -->
      <script src="./js/nav.js"></script>
+
+     <!-- AOS script========================= -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 3000,
+        once: false,
+    });
+    
+    </script>
 </body>
 </html>
