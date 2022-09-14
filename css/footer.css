@@ -62,7 +62,7 @@
 .email-for-newsletter form input {
   background: transparent;
   border: 1px solid var(--white);
-  padding: 0.5rem;
+  padding: 0.438rem;
   color: var(--white);
   border-radius: 2px;
   font-size: inherit;
