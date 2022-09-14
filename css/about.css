@@ -448,7 +448,8 @@ body{
     margin-top: 12rem;
     background: var(--second-color);
     color: var(--white);
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     max-width: 100%;
 }
 #footer-content{
@@ -481,7 +482,7 @@ body{
  form input{
     background:transparent;
     border: 1px solid var(--white);
-    padding: .4rem;
+    padding: .7rem;
     color: var(--white);
     border-radius: 2px; 
     max-width: 200px;  
