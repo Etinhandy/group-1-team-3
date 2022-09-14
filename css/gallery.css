@@ -50,8 +50,8 @@
   background-color: white;
   margin: 0.5rem;
   transition: 0.4s;
+  transition-property: transform;
 }
-
 .gallery-card:hover{
   transform: scale(1.05);
   
