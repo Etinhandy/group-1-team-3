@@ -138,6 +138,8 @@
   .email-for-newsletter form {
     flex-wrap: nowrap;
   }
+  .first-item{
+  margin 0 auto}
 
 }
 
