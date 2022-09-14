@@ -65,6 +65,7 @@
   padding: 0.438rem;
   color: var(--white);
   border-radius: 2px;
+  max-width:222px;
   font-size: inherit;
 }
 .email-for-newsletter form input:focus {
