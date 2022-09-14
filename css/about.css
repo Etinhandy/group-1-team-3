@@ -461,6 +461,7 @@ body{
     font-size: 2rem;
     font-weight: 600;
     font-family:var(--heading-font) ;
+    margin-top:4.5rem;
 }
 .footer-item{
     display: grid;
@@ -531,8 +532,10 @@ font-size: 1.8rem;
 @media(min-width:760px){
     #footer-content{
         display: grid!important;
-        grid-template-columns:repeat(3,1fr);
-        
+        grid-template-columns:repeat(3,1fr);  
+    }
+    .footer-item-heading h2{
+    margin-top:0;
     }
     .first-item{
         grid-column: span 3;
