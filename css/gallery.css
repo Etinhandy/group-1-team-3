@@ -27,7 +27,7 @@
   font-size: 3rem;
   color: white;
   font-weight: 600;
-   font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .gallery-display {
@@ -46,48 +46,49 @@
 
 .gallery-card {
   width: 32%;
-  min-height: 18rem;
+  height: 26rem;
   background-color: white;
   margin: 0.5rem;
   transition: 0.4s;
   transition-property: transform;
 }
-.gallery-card:hover{
+
+
+.gallery-card:hover {
   transform: scale(1.05);
-  
 }
 
 .gallery-card-pic {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 17.2rem;
+  height: 75%;
 }
 
 /* To make the image fluid and and not override div */
 .fluid-state {
-  max-width: 100%;
-  max-height: 100%;
-  background-position: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .gallery-texts {
-  padding: 0 0 ;
+  padding: 0 0;
 }
- 
+
 .funmi_h2 a {
-font-family: 'Montserrat', sans-serif;
-font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.51rem;
-  letter-spacing: .009rem;
+  letter-spacing: 0.009rem;
   text-decoration: none;
   color: #131515;
 }
 
-.funmi_p a:hover{
+.funmi_p a:hover {
   text-decoration: underline;
-  
 }
 
 .funmi_p a {
@@ -96,12 +97,15 @@ font-weight: 700;
   line-height: 1.362rem;
   letter-spacing: 0.031rem;
   color: #145ef4;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .fluid-state2 {
-  width: 25rem;
-  height: 17rem;
+  width: 100%;
+  height: 100%;
+  padding-right: 0rem;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* footer{
@@ -113,34 +117,11 @@ font-size: 62.5%;
   padding-left: 1em;
 }
 */
-@media only screen and (max-width: 1024px) {
-  .gallery-card {
-    width: 31.5%;
-    min-height: 18rem;
-  }
-  
-  .gallery-card-pic {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 15rem;
-  }
-
-  .fluid-state2 {
-    width: 25rem;
-    height: 15rem;
-    padding-bottom: 0.5rem;
-  }
-  
-  .JOY-NEWSLETTER{
-    padding-left: 2em;
-  }
-}
 
 @media only screen and (max-width: 768px) {
-.gallery-main{
-  padding-bottom: 2em;
-}
+  .gallery-main {
+    padding-bottom: 2em;
+  }
 
   .gallery-hero-section {
     background-position: 30% 80%;
@@ -150,26 +131,30 @@ font-size: 62.5%;
   }
 
   .gallery-card {
-    width: 47.5%;
-    min-height: 18rem;
+    width: 45%;
+    height: 20rem;
+  }
+
+  .gallery-card-pic {
+    height: 70%;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 428px) {
   .gallery-card {
     width: 98%;
-    min-height: 16rem;
-    margin-bottom: 1.5rem;
+    height: 22rem;
+    margin-bottom: 2rem;
   }
 
   .gallery-card-pic {
     width: auto;
-    height: 16rem;
+    height: 18rem;
   }
 
   .fluid-state2 {
-    width: 17rem;
-    height: 16rem;
+    width: 100%;
+    height: 100%;
   }
 
   .gallery-hero-section {

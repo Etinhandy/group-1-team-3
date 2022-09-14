@@ -287,7 +287,8 @@ input:focus {
   margin-top: 6rem;
   background: var(--second-color);
   color: var(--white);
-  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-family: 'Open Sans', sans-serif;
   max-width: 100%;
 }
@@ -322,10 +323,11 @@ input:focus {
 form input{
   background: transparent;
   border: 1px solid var(--white);
-  padding: .5rem;
+  padding: .7rem;
   color: var(--white);
   border-radius: 2px; 
   font-size: inherit;
+  max-width:222px;
 }
 .email-for-newsletter
 form input:focus{
@@ -336,7 +338,7 @@ form input:focus{
   background: var(--secondary-color);
   border: none;
   color: var(--white);
-  padding: 8px 25px;
+  padding: 10px 24px;
   border-radius: 8px;
   font-family: var(--heading-font);
   font-size: 1.4rem;
@@ -397,7 +399,7 @@ margin-left: 1rem;
         .chinedu-nav-menu{
           position: fixed;
           left: -100%;
-          top: 10px;
+          top: 67px;
           gap: 0;
           flex-direction: column;
           justify-content: flex-start;
@@ -454,6 +456,10 @@ margin-left: 1rem;
   #footer-content{
       display: block;
   }
+  .footer-item-heading h2{
+  margin-top:45px;
+}
+    
   .first-item{
       display: inline-block;
       
