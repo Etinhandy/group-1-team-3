@@ -69,7 +69,7 @@
   transform: scale(1);
 }
 
-/* @keyframes myAnim {
+@keyframes myAnim {
 	0% {
 		opacity: 0;
 		transform: rotateX(-100deg);
@@ -80,8 +80,9 @@
 		opacity: 1;
 		transform: rotateX(0deg);
 		transform-origin: top;
-	} */
+	}
 }
+
 .donation-flex-text {
   display: flex;
   flex-direction: column;
