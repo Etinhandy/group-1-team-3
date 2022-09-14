@@ -84,3 +84,20 @@ for (let i = 0; i < cashBtn.length; i++) {
 //     exitModal();
 //   }
 // });
+
+
+//    Animation==========
+
+
+window.addEventListener('scroll', () =>{
+
+  let content = document.querySelector('.donation-flex');
+  let contentPosition = content.getBoundingClientRect().top;
+  let scrollPosition = window.innerHeight;
+
+  if (contentPosition < scrollPosition){
+      content.classList.add('show');
+  }else {
+      content.classList.remove('show');
+  }
+});

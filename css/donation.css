@@ -57,10 +57,19 @@
   width: 100%;
   padding: 5rem 5rem;
   gap: 3rem;
-  animation: myAnim 3git s ease 0s 1 normal forwards;
+  /* animation: myAnim 3gits ease 0s 1 normal forwards; */
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 1.5s ease-in-out;
+  
 }
 
-@keyframes myAnim {
+.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* @keyframes myAnim {
 	0% {
 		opacity: 0;
 		transform: rotateX(-100deg);
@@ -71,7 +80,7 @@
 		opacity: 1;
 		transform: rotateX(0deg);
 		transform-origin: top;
-	}
+	} */
 }
 .donation-flex-text {
   display: flex;

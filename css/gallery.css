@@ -49,9 +49,7 @@
   min-height: 18rem;
   background-color: white;
   margin: 0.5rem;
-  transition: 0.4s;
-  transition-property: transform;
-  
+  transition: 0.8s;
 }
 
 .gallery-card:hover{
