@@ -145,7 +145,6 @@
 
 @media (max-width: 360px) {
   .email-for-newsletter form {
-    max-width: 20px;
     flex-wrap: wrap;
   }
 
