@@ -145,6 +145,7 @@
 @media (max-width: 360px) {
   .email-for-newsletter form {
     flex-wrap: wrap;
+     max-width: 20px;
   }
 
   .email-for-newsletter .submit-button{
