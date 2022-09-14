@@ -139,9 +139,6 @@
     flex-wrap: nowrap;
   }
 
-  .first-item {
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: 360px) {
