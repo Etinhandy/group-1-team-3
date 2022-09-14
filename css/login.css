@@ -337,7 +337,7 @@ form input:focus{
   background: var(--secondary-color);
   border: none;
   color: var(--white);
-  padding: 8px 25px;
+  padding: 10px 24px;
   border-radius: 8px;
   font-family: var(--heading-font);
   font-size: 1.4rem;
