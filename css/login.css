@@ -327,6 +327,7 @@ form input{
   color: var(--white);
   border-radius: 2px; 
   font-size: inherit;
+  max-width:222px;
 }
 .email-for-newsletter
 form input:focus{
