@@ -53,6 +53,7 @@
   transition-property: transform;
 }
 
+
 .gallery-card:hover {
   transform: scale(1.05);
 }

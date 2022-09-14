@@ -58,6 +58,22 @@
   width: 100%;
   padding: 5rem 5rem;
   gap: 3rem;
+
+  animation: myAnim 3gits ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
 }
 
 .donation-flex-text {

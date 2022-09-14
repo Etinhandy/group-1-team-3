@@ -59,3 +59,20 @@ function setSuccessFor(input) {
 function emailValid(email) {
     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
    }
+
+
+
+//    Animation==========
+
+window.addEventListener('scroll', () =>{
+
+    let content = document.querySelector('.feature-container');
+    let contentPosition = content.getBoundingClientRect().top;
+    let scrollPosition = window.innerHeight;
+
+    if (contentPosition < scrollPosition){
+        content.classList.add('show');
+    }else {
+        content.classList.remove('show');
+    }
+});

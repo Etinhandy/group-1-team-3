@@ -161,6 +161,9 @@ body{
     align-items: center;
     margin-top:5rem;
     width: 100%;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out;
 }
 
 .feature-div {
@@ -390,6 +393,11 @@ form .btn {
 form .btn:hover{
     cursor: pointer;
     color: var(--footer-btn);
+}
+
+.show {
+    opacity: 1;
+    transform: scale(1);
 }
 
 @media only screen and (max-width: 1200px) {
