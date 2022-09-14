@@ -577,7 +577,7 @@ font-size: 1.8rem;
     .chinedu-nav-menu{
         position: fixed;
         left: -100%;
-        top: 10px;
+        top: 67px;
         gap: 0;
         flex-direction: column;
         justify-content: flex-start;
