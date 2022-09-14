@@ -567,6 +567,7 @@ font-size: 1.8rem;
         display: flex;
         gap: .8rem;
         flex-wrap: wrap;
+        max-width:20px;
     }
 }
 
