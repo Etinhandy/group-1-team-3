@@ -38,7 +38,7 @@ body{
 
 .hero-div {
     width: 27rem;
-    height: 18.4rem;
+    height: 17.6rem;
     position: absolute;
     top: 6rem;
     left: 172px;
@@ -51,7 +51,7 @@ body{
 .hero-div h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
-    margin: 15px 40px 12px 40px ;
+    margin: 25px 40px 12px 40px ;
 }
 
 .hero-div p{
@@ -97,6 +97,7 @@ body{
 
 .impact-min-div  {
     width: 20rem;
+    margin-top: 30px;
 }
 
 .impact-min-div img{
@@ -118,7 +119,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     letter-spacing: 1.25px;
-    color: var(--footer-btn);
+    color: rgb(247, 192, 73);
     float: right;
     margin-right: 150px;
     margin-bottom: 70px;
@@ -569,25 +570,16 @@ form .btn:hover{
 
     /* =======impact section====== */
 
+    .impact-div{
+        flex-wrap: wrap;
+    }
+
      .impact h2{
-        margin-left: 70px;
+        margin-left: 50px;
      }
 
      .impact-div{
-        margin: 30px 50px 20px 50px;
-    }
-
-        .impact-min-div  {
-            width: 17.75rem;
-        }
-    
-    .impact-min-div img{
-        width: 16.125rem;
-        height: 11.25rem;
-    }
-
-    .impact a{
-        margin-right: 100px;
+        margin: 30px 30px 20px 30px;
     }
     
         /* ======Our Features section======= */
@@ -638,18 +630,6 @@ form .btn:hover{
         }
     }
     
-    @media only screen and (max-width: 892px){
-        
-    /* =======impact section====== */
-
-     .impact h2{
-        margin-left: 50px;
-     }
-
-     .impact-div{
-        margin: 30px 30px 20px 30px;
-    }
-    }
 
   @media only screen and (max-width: 768px) {
     
@@ -690,7 +670,7 @@ form .btn:hover{
 
     /* =======impact section====== */
 
-    .impact h2{
+    /* .impact h2{
         font-size: 28px;
         margin-left: 45px;
     }
@@ -714,7 +694,7 @@ form .btn:hover{
 
     .impact a{
         margin-right: 55px;
-    }
+    } */
 
     /* ======Our Features section======= */
 
@@ -817,8 +797,66 @@ form .btn:hover{
     }
   }
     
+  @media only screen and (max-width: 748px){
+
+    /* feature section========= */
+
+    .our-features{
+        height: 600px;
+    }
+
+    .feature-overlay{
+        height: 600px;
+        
+    }
+
+    .feature-container{
+        flex-wrap: wrap;
+    }
+
+    .feature-div{
+        margin-bottom: 30px;
+    }
+  }
   
   /* ============MOBILE==VIEW=========== */
+
+  @media only screen and (max-width: 639px){
+
+    /* feature section========= */
+
+    .our-features{
+        height: 900px;
+    }
+
+    .feature-overlay{
+        height: 900px;
+        
+    }
+
+    .feature-div {
+        width: 23.125rem;
+        height: 13.75rem;
+        background-color: rgba(255, 255, 255, 0.75);
+        box-shadow: 0px 9px 12px 1px rgba(0, 0, 0, 0.14);
+        border-radius: 12px;
+        transition: all 1s;
+    }
+
+    .feature-div:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .feature-div:first-child{
+        margin-left: 0px;
+    }
+    
+    .feature-div:last-child{
+        margin-right: 0px;
+    }
+
+  }
 
   @media only screen and (max-width: 428px) {
     
