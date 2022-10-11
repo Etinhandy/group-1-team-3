@@ -100,7 +100,7 @@ body{
 
 
 /*for tablets screen*/
- @media (max-width:768px){
+ @media (max-width:900px){
 
     .chinedu-nav-menu{
       position: fixed;
