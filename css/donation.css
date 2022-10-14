@@ -372,6 +372,8 @@ input[type="radio"]:checked {
     padding: 0 0;
   }
 
+  
+
   .donation-flex-text {
     width: 100%;
     text-align: center;
@@ -456,7 +458,7 @@ input[type="radio"]:checked {
 
   .donation-flex-text h2 {
     font-size: 2rem;
-    text-align: justify;
+    text-align: center;
   }
 
   .donation-flex-text p {
