@@ -281,6 +281,12 @@ input[type="radio"]:checked {
 }
 
 /* for some laptop screens */
+@media (max-width: 1200px) {
+  .donation-hero-section {
+    padding: 0 26rem 0 8rem;
+    height: 25rem;
+  }
+}
 
 /* mediaqueries for tablet view */
 
