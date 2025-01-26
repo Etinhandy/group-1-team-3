@@ -43,7 +43,7 @@ body{
     z-index: 9999;
     width: 100%;
     background:var(--bg-color);
-     font-family:  'Open Sans', sans-serif;
+    font-family:  'Open Sans', sans-serif;
     box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.14);
 }
 .chinedu-nav-bar{
